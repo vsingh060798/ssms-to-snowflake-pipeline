@@ -13,3 +13,4 @@ logs/
 tmp/
 *.log
 ~$*.docx
+SSMS to Snowflake Real-World Data Pipeline.docx
