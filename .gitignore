@@ -1,8 +1,13 @@
-config_pipeline/
-dags/
+config/
+plugins/
+sql query/
+*.pyc
+__pycache__/
 logs/
-src/
-*.env
-*.yaml
-Dockerfile
-README.md
+.env
+*.db
+*.csv
+.docx
+.docker/
+tmp/
+*.log
