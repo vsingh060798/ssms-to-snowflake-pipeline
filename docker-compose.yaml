@@ -38,7 +38,7 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
-      AIRFLOW__CORE__FERNET_KEY: b9bDyGE_FW2uxr8x0s80llXqfSMpzBy3WFf1H9jqBjQ=
+      AIRFLOW__CORE__FERNET_KEY: --give your Fernet Key
       AIRFLOW__WEBSERVER__SECRET_KEY: temporary_key_for_demo
       _PIP_ADDITIONAL_REQUIREMENTS: ""
     volumes:

@@ -1,6 +1,0 @@
-{
-    "server": "host.docker.internal",
-    "database": "test",
-    "username": "sa",
-    "password": "Baba@124"
-}
