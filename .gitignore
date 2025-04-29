@@ -1,0 +1,8 @@
+config_pipeline/
+dags/
+logs/
+src/
+*.env
+*.yaml
+Dockerfile
+README.md
